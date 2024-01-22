@@ -7,7 +7,10 @@ const vas = document.getElementById('va')
 
 let times = [fla, pal, sao, cor, flu, vas]
 
-const tim = document.getElementsByTagName('div')
+
+let tim = document.getElementsByTagName('div')
+tim = [...tim]
+
 
 console.log(times)
 console.log(tim)
